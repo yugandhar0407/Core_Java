@@ -1,0 +1,24 @@
+Variables In Java
+  
+  Variable: A Variable is a name of memory location.
+            A Variable is a container which holds the value. It is assigned with a data type.
+            Its value is not constant, it will changeable as per user wish.
+         
+ Types of Variables: There are three types of variables in java.
+                     Local   - A variable declared inside the body of the method.
+                     		  - A Local Variable can't be defined with 'statc' keyword.
+                     Instance/Global- A variable declared inside the class and outside the body of the method.
+                     Static  - A variable that is declared as static is called static variable. It can't be a local.
+                               You can create single copy of static variable and share it among all the instance of class.
+                     
+                     Importance about Variable- 
+                     Variable are case-sensitive "value" and "Value" both are different.
+                     Space is not permitted in variables names.
+                     Variable names should start with a lower case letter.
+                     variable name should be unique.
+                     variable must be declared with or assigned with a dataType.
+                     Variable is a Temporary Memory.
+                     Variable is capable of storing only one value at a time.
+                     variable always stores with the latest value assigned it.
+                     Variable name once assigned with any dataType and it the same variable name is used again.
+                     

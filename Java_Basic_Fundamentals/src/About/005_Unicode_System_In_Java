@@ -1,0 +1,8 @@
+Unicode System
+		--> Unicode system is a universal international standard character encoding that is capable
+		    of representing most of the world's written languages.
+		--> Before unicode, there are so many languages like ASCII, ISO8859-1, KOI-8, etc.
+		--> But these are creating some problems, so to slove these problems unicode system is introduced.
+		--> It holds 2 bytes, so java used 2 bytes for characters.
+				* lowest value = \u0000
+				* Highest value= \uffff

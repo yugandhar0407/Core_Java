@@ -1,0 +1,250 @@
+Java compiler excutes the code form top to bottom.
+The statements in the code are executed according to the order in which they appear.
+However, java provides statements that can be used to control the flow of java code.
+Such statements are called control flow statements.
+
+	Java provides three types of controlflow statements.
+		1. Decision Making Statements
+			* If
+			* Else
+			* Switch
+		2. Loop Staments
+			* For Loop
+			* While Loop
+			* Do While Loop
+			* For-Each Loop [Enhanced For Loop]
+		3. Jump Statements
+			* Break 
+			* COntinue
+			
+	1. Decision Making Statements
+			Decision Making Statement decide which statement to execute and when.
+			Decision Making Statements evaluate the boolean expression and control the program flow
+			depending upon the result of the condition provided.
+			
+	   Decision Statements
+	   		The Java If statement is used to test the condition.
+	   		It checks boolean condition -- True or False.
+	   		
+	   Types of IF Statements
+	   		*If 
+	   		*If, else
+	   		*if,else,if
+	   		*nested if
+	   		
+	   	IF Statement
+	   		The Java If statement tests the condition.
+	   		It executes the if block if condition is true.
+	   		
+	   	Syntax:
+	   			if(condition){
+	   			//code to be executed
+	   			};
+	   			
+	   	IF, Else Statement
+	   		The Java If,Else statements are also tests the condition.
+	   		It executes the if block if the condition is true otherwise else block is executed.
+	   		
+	   	Syntax:
+	   			if(condition){
+	   			//Code to be executed [Executes if the condition is true]
+	   			}else{
+	   			//Code to be executed [Executes if the condition is false]
+	   			}
+	   			
+	   	If,Else,If ladder Statement
+	   		The If,Else,If ladder statement executes one condition from multiple statements.
+	   		
+	   	Nested If Statement
+	   		The nested if statement represents the if block within another if block.
+	   		Here, the inner if block condition executes only when outer if block condition is true.
+	   		
+	   		
+	   	Switch In Java
+	   	
+	   	Java Switch statement executes one statement from multiple conditions.
+	   	The Switch statement tests the equality of a variable against multiple variables.
+	   	Default statement is executed when none of the conditions is matched.
+	   	It is like if-else-if ladder statement.
+	   	The Switch statement works with byte, short, int, long, enum types.
+	   	Since java 7, we can use Strings in the Switch statement.
+	   	
+	   	Break Statement in Switch
+	   	
+	   	The break statement is used to comeout of the programme flow.
+	   	The line at which the the program finds the break statement,
+	    it comes out of the execution flow and ignores the rest cases.
+	    
+	    
+	2. Loops In Java
+		
+		The Loop in Java means repeating the execution with respect to the condition 
+		specified by the programmer.
+		
+		Three Types of Loops in Java
+			1. For Loop
+			2. While Loop
+			3. Do While Loop
+			
+		1.For Loop
+			The Java For Loop is used to iterate a part of program several times.
+			If the number of iterations is fixed, it is recommended to use for loop.
+		2. While Loop
+			The Java While Loop is used to iterate a part of the program several times.
+			If the number of itertion is not fixed, it is recommended to use While Loop.
+		3. Do While
+			The Java Do While Loop is used to iterate a part of the program several times.
+			Use it, if the number of iterations is not fixed,
+			and you must have to execute the loop atleast once.
+		
+		For Loop
+			A simple for loop is the same as c/c++.
+			We can initialize the variable, check condition and increment/decrement value.
+				It consists of four parts
+					* Initialization
+					* Condition
+					* Increment/decrement
+					* Statement
+					
+			Types of for loops 
+					1. Simple for Loop
+					2. For-each / Enchanced For Loop
+					3. Labeled For Loop
+					4. Infinite For Loop
+					
+			syntax for Simple for loop
+					for(Initialization; condition; increment/decrement){
+					statement
+					};
+					
+			Java Nested For Loop
+					If we have a for loop inside the another loop, it is known as nested for loop.
+					The Inner Loop executes completely whenever outer loop executes.
+					
+	   		syntax for Simple for loop
+					for(Initialization; condition; increment/decrement){
+						for(Initialization; condition; increment/decrement){
+						statement
+						}
+						}
+						
+			Java For Each Loop
+					The for-each loop is used to traverse array or collection in java.
+					It is easier to use then simple for loop because we don't need to increment values
+					and use subscript motation.
+					
+					It works on the basis of elements and not the index.
+					It returns element one by one in the defined variable.
+					
+			syntax
+					for(datatype:variable){
+					statement
+					};
+					
+			Java Labeled For Loop
+					It is useful while using the nested for loop as we can break/continue specific for loop.
+			Note: The break and continue keywords breaks or continues the innermost for loop respectively.
+			
+					
+			Java Infinite For Loop
+					if you use two semicolons ;; in the for loop, it will be infinite for loop.
+					It is a set of code that repeats itself unless it is forced to stop.
+					
+					
+		While Loop
+			The Java while loop is used to iterate a part of the program repeatedly until the specifies boolean
+			condition is true.
+			As soon as the  boolean condition becomes false, the loop automatically stops.
+			
+			
+			Syntax
+					initialization;
+						while(condition){
+						statement;
+						increment/decrement
+						}
+						
+			Infinite While Loop
+					if you pass true in the while loop, it will be infinitive while loop.
+					
+			Syntax
+					while(true){
+					statement;
+					}
+					
+		Do While Loop
+			The Java Do While Loop is used to iterate a part of the program repeatedly,
+			 until the specifies condition is true.
+			Java Do While loop is called as exit control loop.
+			
+			Syntax
+					intialization;
+					do{
+					statement;
+					increment/decrement
+					}while(condition);
+				
+		Infinite Do While Loop
+			If you pass true n the do while loop, it will be infinitive do-while loop.
+			
+			Syntax
+					do{
+					statement;
+					}while(true);
+					
+			Note: In the infinite loops, we need to enter ctrl+c command to terminate the infinite loop.
+			
+			
+		Jump Statements in Java:
+					 
+		Break Statement:
+			When a break statement is encountered inside a loop, the loop is immediately terminated.
+			The Java break statement us used to break loop or switch statement.
+			It breaks the current flow of the program at specified condition.
+			In case of inner loop, it breaks only inner loop.
+			we can use java break statement in all types of loops such as for loop, while loop and do while loop.
+			
+		Continue Statement:
+			The Continue statement is used in loop control structure when you need to jump to the
+			iteration of the loop immediately.
+			It can be used with for loop or while loop.
+			
+			The Java Continue statement is used to continue the loop.
+			It continues the current flow of the program and skips the specified code at the specified condition.
+			
+		
+
+					
+			
+					
+	   		
+	   	
+	   	
+	   	
+	   	
+	   	
+	   	
+	   	
+	   	
+	   	
+	   	
+	   	
+	   	
+	   	
+	   	
+	   	
+	   	
+	   	
+	   	
+	   	
+	   	
+	   	
+	   	
+	   	
+	   	
+	   	
+	   	
+	   	
+	   	
+	   	
+		

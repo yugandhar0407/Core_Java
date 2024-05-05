@@ -1,0 +1,68 @@
+    What is Java?
+   	   - Java is an Object-Oriented, Class-based, Secured and general purpose computer-programming
+         language, which is used to develop mobile applications, desktop applications etc,.
+       - Java is a widely-used programming language for coding web applications
+       - Java works on different platforms, and it is open source and free.
+       - Java developed by Sun Micro Systems in the year 1995.
+       - James Gosling is known the father of java.
+       - before Java Its names was Oak. Since Oak was already registered company,
+         so james gosling and his team changes the name form Oak to Java.
+       - The Latest Version of Java is JDK21 from SEP 2023.
+       - The Oracle Corporation is the current owner of Java followed by Sun Micro Systems on 27 June, 2010.
+       - Java is a Write-Once Run-Anywhere Language, meaning that compiled java code can run on all platforms
+         that supports Java with out need of Re-Compilation, that's why java is a platform independent.
+         
+   Explain the working of Java Programme?
+   	- The source code converts into byte code by using a compiler and the byte-code can be run on jvm
+   	  and the jvm interprets the byte-code and executes the program.
+   
+   Applications of Java
+   	- There are Four Types of Applications in Java
+   		- Standalone applications [ desktop applications like media player and anti virus]
+   		- Web Applications [Servlet JSP Spring and Hibernate applications]
+   		- Enterprise Applications [Banking Applications]
+   		- Mobile Applications [Anroid Applications]
+   
+   Java Platforms/Edtions
+   	- There are Four Types of Edtions in Java
+   		- Java Standard Edtion [ Java SE ]
+  		- Java Enterprise Editon [ Java EE ]
+   		- Java Micro Edition [ Java ME ]
+   		- Java FX [ Internet Applications ]
+ 
+   Features of Java
+   	- Platform Independent
+   	- Objected Oriented Language
+  	- Fast & Secure
+   	- Simple & Portable
+   	- Robust [ Realiable ]
+   	- Dynamic
+   	- Interpreted
+  	- Distributed
+  	- Write-Once Run Anywhere
+    
+    JVM JRE JDK 
+    
+    JVM - Java Virtual Machine is an abstract, it is a virtual machince does not physically exist.
+        - The main function of JVM is to execute the byte-code produced by the compiler.
+        - It can also run those programes which are written in other languages and compiles to java byte-code.
+        - The JVM performs the main tasks
+            1. Loads Code
+            2. Verifies Code
+            3. Executes Code
+            4. Provides Run-Time Environment
+           
+    JRE - Java Run-Time Environment is a set of software tools which are used to developing java applications.
+        - JRE includes a browser, JVM, applet support and plugins for running the Java Program.
+        - It is an implementation of the JVM which physically exists.
+       
+    JDK - Java Development Kit is a software development environment which is used to develop Java applications and applets.
+    	 - It is the tool necessary to compile, document and package java programs
+    	 - The JDK contains a private JVM amd a few other resources such as an interpreter/folder, a compiler,
+          an archiver, a documentation generator etc to complete the development of application.
+      
+    IDE - Integrated Development Environment
+        - IDE is a software application that provides feasibility to users in writing and debugging java programs.
+        - The most important IDEs are Eclipse, VS Code, Intellij etc,. 
+         
+ 

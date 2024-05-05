@@ -1,0 +1,16 @@
+ Main Method Explanation:
+		  public- It is a Access Specifier, which specifies from where and who can access the method.
+                  Making a main() method public means, it can access out the class and package also.
+          static- It is a keyword, i.e, when associated with a method making.
+                  Without creating the object we can access static method.
+          void-   It is a keyword and is used to say that the method doesn't return anything.
+                  If the main method doesn't return anything, its return type is void.
+          main()- It is a name of the java main method, not a keyword.       
+   String[]args-  It stores java command line arguments and is an array of type.
+                  It is not fixed you can replace it with any name.
+                                      
+     System.out.println(); - used to dislpy content on console
+     System - class
+     out    - object (output)
+     println() - Method
+     

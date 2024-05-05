@@ -1,0 +1,27 @@
+Keywords In Java
+		A Java Keyword is one of the 50 reversed keywords for a programming language.
+		Each Keyword has a specific meaning in the language.
+		
+	Rules to follow for keywords
+		* Keywords can't be used as a identifier for class, subclass, variable and methods.
+		* Keywords are case sensitive.
+		
+	Some Important points about keywords
+		* Keyword are reserved word.
+		* Meaning of keyword is known to compiler.
+		* keyword can't be used as a variable.
+		* "Const" and "goto" are also reserved words but not used.
+		* True, false and null are Literals not keywords.
+		* All keywords are in lower-case.
+		
+	The Main Keywords are 
+	
+				abstract	assert		boolean		break		byte		case		catch
+				char		class		const		continue	default		do			double
+				else		enum		extends		final		finally		float		for
+				goto		if			implements	import		instanceof	int			interface
+				long		native		new			package		private		protected	public
+				return		short		static		strictfp	super		switch		synchronized
+				this		throw		throws		transient	try			void		volatile
+				while
+				

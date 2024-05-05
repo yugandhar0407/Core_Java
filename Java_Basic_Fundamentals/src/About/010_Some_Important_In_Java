@@ -1,0 +1,37 @@
+Java Comments
+		The Java Comments are the statements in a program that are not executed by the compiler and interpreter.
+		Types
+				1. Singleline comments
+				2. Multiline comments
+				3. Documentation comments
+				
+			// single line comments
+			/*
+			*  multi line comments
+			*
+			*/
+			
+Code Block
+		Code block in java is used for grouping of two or more statements.
+		The code in java always starts with curly braces and ends with close curly braces.
+		
+		{
+		
+		  //code area
+		
+		}
+		
+Code Indentation
+		Indentation is part of style guide which is used to organize your source code in a good manner.
+		
+Statement
+		Statement is a complete instruction in java, statement ends with semi-colon(;)
+		
+		Types
+			1. Expression Statement
+					The Expression is any section of the code that used to evaluate the condition.
+			2. Declaration
+					Dlecaration statement is used to declare a variable.
+			3. Control Flow Statement
+					It is used to execute a set of statements repeatedly multiple times.
+					[ if, for, while etc.,]

@@ -1,0 +1,6 @@
+ Big Decimal:
+ 
+	 Big Decimal class can handle small as well as large floating-point numbers with great precision
+	 Big Decimal class provides operations on double numbers for arithmetic, 
+	 scale handling, rounding, comparision, format conversion and hasing.
+	 
