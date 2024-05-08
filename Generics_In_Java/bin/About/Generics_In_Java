@@ -1,0 +1,63 @@
+												Generics In Java
+												
+	The Java Generics programming is introduced in J2SE 5 to deal with type-safe onjects.
+	It makes the code stable by detecting the bugs at compile time.
+	
+	Advantages:
+			Resuability
+			Stronger type checking
+			Better type safety
+			Reduces run-time error
+			Eliminate type casting statements
+			improves the program's performance
+			
+	The Generics allows us to define a single declaration for all the data types(not primitive)
+	but all the objects such as integers, string etc.
+	
+	
+	Type Parameters
+			The Type Parameters naming conventions are important to learn generics throughly.
+			The common type parameters are as
+				*T- Type
+				*E- Element
+				*K- Key
+				*N- Number
+				*V- Value
+				
+	Generic Class
+			A class that can refer to any type is known as a generic class.
+		
+	Generic Method
+			Like the generic class, we can create a generic method that can accept any type
+			of arguments.
+			It allows static as well as non-static methods.
+			
+	Bounded Type Parameters
+			A method that accepts only String must not be passed with numbers and therefore, 
+			bounded type parameters are used for such purposes.
+			In bounded type parameter, we are bounding or restricting to specific information.
+			
+	Wildcards In Generics
+	
+			Introduction:
+					Java generics use wildcards to represent unknown or generic types that can be used in
+					different ways.
+					Wildcards are denoted by the question mark symbol(?) and can be used in
+					upper-bounded, lower bounded, or unbounded forms.
+					
+				Types of wildcards
+					 There are three types of wildcards used in java generics
+					 	Upper Bounded wildcard : extends a certain type or interface.
+					 	Lower Bounded wildcard : super restricts a certain type of Interface.
+					 	UnBounded wildcard : represents any type and can be used to read from a collection
+					 	of unknown types.
+					 	
+					 Wildcards are useful when dealing with the collections of different types.
+					 They allow for more flexibility in the types of objects that can be used with a 
+					 collection, making it easier to work with generic types.
+					 
+	
+					 	 
+				
+			
+			
