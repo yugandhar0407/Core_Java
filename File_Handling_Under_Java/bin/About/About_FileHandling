@@ -1,0 +1,56 @@
+											File Handling
+											
+	In Java, with the help of file class, we can work with files.
+	This file class is inside the java i.o package.
+	The file class can be used by creating an object of the class and then specifying the name of the file.
+	In simple words, file handling means reading and writing data to a file.
+	Java Handling files using Streams.
+	
+Data Streams
+	The Stream is a sequence of data. It could be a sequence of input, output, or error streams.
+	In Java, Streams are automatically created for us. All these streams are attached to the console.
+	
+	System.out -> Output Stream is used to write a file.
+	System.in ->  Input Stream is used to read a file.
+	System.err -> Error Stream is used to handle or show the error.
+	
+	
+Creating File on Disk
+	For creating file on disk, you must select a perfect path.
+	This can be done by importing the file library.
+	It also deals with the exceptions thrown after file creation.
+	
+Creating File on Floder
+	For creating a file on floder used this type of path on a windows machine that starts with (/ or \\), the
+	path will be interpreted as relative to the current project.
+	
+Creating a directory in Java
+	In this, we will create a directory with the help of mkdir() method.
+	For creating a subfloder inside the directory, we use mkdirs() method instead of mkdir().
+	
+Writing Data into Files
+	The file writing includes the use of Buffered Writer and file writer in order to write any statement into the file.
+	To write the content into the file we must use "Buffered writer". 
+	This is used to write single arrays, characters, and Strings.
+	Filewriter is also a convenient class for writing text files files using the default character encoding of the operating system.
+	
+Reading Files 
+	This deals with reading the statements from the file. It also follows the same procedure and the import of the some
+	libraries to read the files we use file Reader and the Buffer Reader.
+	Buffered Reader is a class in java that is used to read the text of a character based input stream.
+	It can be used to read data line by line using the readLine() method.
+	
+Reading Files with Scanner
+	In Java we can read files with the help of the scanner class also by using some functions like the hasNext() method.
+	
+File Deletion
+	This is done by a simple command of file.delete() method.
+	The java File delete() method can be used to delete files, it will return a boolean value.
+	It returns true if the file it deleted, false if failed.
+
+Serialization of Objects
+	Serialization of objects is the conversion of a java object into a static stream(sequence) of bytes which can then be saved to a databases or
+	transfered over a network.
+	Serializable is a marker interface, it does not declare any method and tells the serialization mechanism
+	that the class can be serialized.
+	

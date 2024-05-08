@@ -1,0 +1,115 @@
+	Exception Handling In Java
+
+		The Exception Handling in Java is one of the powerful mechanism to handle the runtime
+		errors so that the normal flow of the application can be maintained.
+		
+		Exception --> Abnormal Condition
+		
+		In Java, Exception allows us to write good quality codes where the errors are checked at the compile
+		time instead of runtime and we can create custom exceptions making the code recovery and debugging easier.
+		
+		In Java an Exception is an event that distrupts the normal flow of the program.
+		It is an object which is thrown ar runtime.
+		
+		Exception Handling is a mechanism to handle runtime errors such as ClassNotFound Exception,
+		IOException, SQL Exception, Remote Exception etc,.
+		
+	Hierarchy of Java Exception Classes
+		The java.lang.Throwable class is the root class of Java Exception Hierarchy inherited by two 
+		subclasses.
+		
+									Throwable
+									
+			Exception                                           Error
+					-IOException									-StackOverFlow Error
+					-SQLException									-VirtualMachine Error
+					-ClassNotFoundException							-OutOfMemory Error
+					-RuntimeException
+								-Arithemetic Exception
+								-NullPointer Exception
+								-NumberFormat Exception
+								-IndexOutOfBoundsException
+													-ArrayIndexOutOfBoundsException
+													-StringIndexOutOfBoundsException
+	
+	Types Of Java Exceptions
+		According to oracle, three types
+		1.Checked Exception
+		2.Unchecked Exception
+		
+	1. Checked Exception
+			The Classes that directly inherit the throwable class except Runtime Exception and error are known
+			checked Exceptions.
+			Ex: IOException, SQL Exception etc,.
+			Checked Exceptions are checked at compile time.
+	2. Unchecked Exception
+			The Classes that inherit the Runtime Exception are known as unchecked Exception.
+			Ex: Arithmetic Exception, NullPointer Exception, ArrayIndexOutOfBounds Exception.
+			Unchecked Exceptions are not checked at compile time, but they are checked at runtime.
+			
+	The Main Keywords in Exceptions are 
+						* try
+						* catch
+						* finally
+						* throw
+						* throws
+						
+	Try: 
+	
+	Finally:
+			The finally block is the block that always gets executed no matter the program throws an exeception
+			or not.
+			Java finally block is a block used to executed important code such as closing the connection etc,.
+			The finally block follows the try/catch block.
+			
+		Note: for each try block there can be zero or more catch blocks,but only one finally block.
+		
+	Throw:
+			The Java throw keyword is used to throw an exception explicitly.
+			
+	Throws:
+			The Java throws keyword is used to declare an exception.
+			It gives an information to the programmer that they may occur an exception.
+			
+			throws are used to suppress the error if the user doesn't want to specify the try and catch block.
+			
+						
+	Common seenarios of Java Exceptions.
+	
+			int a = 50/0                     --> Arithmetic Exceptions.
+			
+			String s = null;
+			System.out.println(s.length());  --> Null Pointer Exception
+			
+			String s = "abc";
+			int i = Integer.parseInt(s);     --> Number Format Exception
+			
+			int a[] = new int[5]'
+			a[10] = 50;                      --> Array Index Out Of Bounds Exception.
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
