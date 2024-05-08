@@ -1,0 +1,403 @@
+									Object Oriented Programming 
+									and Some Core Concepts In JAVA
+									
+Object Orinted Programming is a methodology or paradigm to design a program using classes and objects.
+The main aim of the Object Oriented Programming is to implement the real world entities.
+By using the Oop we can reduce code complexity and enables the reusability of code.
+
+The Main Concepts of Object Oriented Programming is
+
+ *Class
+ *Object
+ *Constructors
+ *Interfaces
+ *Abstract Classes
+ *Multiple Inheritance Using Interfaces
+ *Java Inner Classes
+ *User Input
+ *Final Keyword
+ *Java Package
+ *Scope
+ *Access Modifiers
+ *Enum
+ *Static and Non Static Methods
+ 
+ 
+The Main Principles in Java
+
+	1.Inheritance
+	2.Polymorphism
+	3.Abstraction
+	4.Encapsulation
+	
+And apart from these concepts there are some other terms which is used in Oops 
+
+	1.Coupling
+	2.Cohesion
+	3.Association
+	4.Aggregation
+	5.CompositionS
+
+Advantages
+
+	1.Development and Maintaince easier
+	2.Provide Data Hiding
+	3.Ability to simulate real-world event much more effctively
+	4.Offers Security. Many developers use OOP because it ensures minimal exposure using encapsulation
+	5.Improves Collaboration. ...
+	6.Allows Reuse of Code. ...
+	7.Makes Changes Seamlessly. ...
+	8.Locates and Fixes Problems Effortlessly. ...
+	9.Ensures Flexibility. ...
+	10.Drives Productivity. ...
+	11.Maintains Code Consistently.
+	
+	
+Class:
+ 	A Class is a group of objects which have common properties. [OR] Collection of objects is called class.
+  	It is a template or blue print from which objects are created.
+  	Class is a Logical Entity, it can't be Physical.
+  			A class in java contains
+  				* Fields
+  				* Methods
+  				* Constructors
+  				* Blocks
+ 				* Nested Classes and Interface
+  Class and Objects are the Basic Building Blocks of the OOPS.
+  The Class can be created by using class keyword followed by a reference name.
+  A Class defines the state and behaviour of an object.
+  The Main class in Java is Object Class.
+
+
+Object:
+  		Any Entity that has state and behaviour is known as object.
+  		An object is a real-world entity.
+  		Ex: A Chair, A Pen, A Table etc.
+  		Object can be physical or logical.
+  		An Object can be defined as an instance of class.
+  		It contains an address and takes up some space in memory.
+  		We can create the object by using the new keyword.
+  		
+  Example of an Object:
+  		A dog is an Object or Entity, because it has states like color, name,breed etc.
+  		As well as behaviours like wagging the tail, barking, eating etc.
+  
+  An Object has three characteristics
+  		1. State
+  		2. Behaviour
+  		3. Identity
+  
+  We can initialize object in 3 ways
+  		1. By reference variable
+  		2. By Method
+  		3. By Constructor
+  	
+  	
+Constructors In Java
+
+		In Java, a constructor is a block of codes similar to the method.
+		It is called when an instance of the class is created.
+		It is a special type of method which is used to initalize the object.
+		Constructor in java is used to create the instance of the class.
+		
+	Rules for creating Java Constructor
+		1. Constructor name must be the same as its class name.
+		2. A constructor must have no explicit return type.
+		3. A Java Constructor cannot be abstract, static, final and synchronized.
+		
+	Types of Constructors in Java
+		1. Default Constructor(no-arg constructor)
+		2. Parameterized Constructor
+		
+	1. Defalut Constructor
+		A Constructor is called default constructor when it doesn't have any parameters.
+		Java compailer adds a default constructor to the class during compilation, 
+		if you do not have any constructor in your class.
+		The Default Constructor is used to provide the default values to the object like 0, null etc,
+	    depending on the type.
+		
+	2. Parameterized Constructor
+		A Constructor which has a specific number of parameters is called a parameterized constructor.
+		By using this, you can provide values to variables during instantiating the class.
+		The Parameterized constructor is used to provide different values to distinct objects,
+	    you can provide same values also.
+	    
+	    You can generate parameterized constructor in eclipse ide like
+	    source >> Generate Constructor using fields.
+	    
+	 Constructor Overloading in Java
+	 	Constructor overloading in java is a technique of having more than one constructor
+	 	with different parameter lists.
+	 	They are arranged in away that each constructor performs a different task.
+	 	
+
+Interfaces
+		In Java, an interface is an abstract type that contains a collection of methods and constant variables.
+		It is one of the core concepts in Java and is used to achieve abstraction, 
+		polymorphism and multiple inheritances.
+		We can implement an interface in a Java class by using the implements keyword.
+		Interface are somewhat similar to class, it serves as a outline of the class.
+		The members declared in it are public,static by default.
+		It is a blueprint of a class. It has static constants and abstract methods.
+		There can be only abstract methods in java interface.
+		
+	why we use interface
+		1. It is used to achieve abstraction, Multiple Inheritance and Polymorphism.
+		2. It can used to achieve loose coupling.
+	Relationship between interface and classes
+	
+	class         extends       class
+	interface     implements    class
+	interface     extends       interface
+	
+	In object-oriented programming, an interface or protocol type is a data type that acts as an abstraction of a class.
+    It describes a set of method signatures, the implementations of which may be provided by 
+    multiple classes that are otherwise not necessarily related to each other.
+	
+		
+Abstract Classes In Java
+
+		The abstract keyword is a non-access modifier, used for classes and methods: 
+		Abstract class: is a restricted class that cannot be used to create objects (to access it, 
+		it must be inherited from another class).
+		Abstract method: can only be used in an abstract class, and it does not have a body.
+		The class which is declared with the abstract keyword is known as an abstract class in Java.
+		Abstract class can not be instantiated.
+		It can have constructors and static methods also.
+
+
+Multiple Inheritance Using Interfaces
+		
+		If a class implements multiple interfaces, or
+		an interface extends multiple interfaces, it is known as multiple inheritaance.
+		If one class extending more than one class is called multiple inheritance.
+		Java does not allow multiple inheritance directly through the class.
+		Interfaces are used to perform multiple inheritance.
+		
+Java Inner Classes:
+
+	Java Inner class or nested class is a class that is declared inside the class or interface.
+	We use inner classes to logically group classes and interfaces in one place to be more readable and maintainable.
+	Additionally, it can access all the members of the outer class, including private data members and methods.
+	
+	Advantages
+			1. It can access all the members of the outerclass.
+			2. To develop more readable and maintainable code.
+			3. Code optimization.
+	Note: An inner class is a part of a nested class.
+		  Non-static nested classes are known as inner classes.
+		  
+	Types of Nested classes
+		*Non-static nested class(Inner class)
+		1. Member Inner class
+				- A class created within class and outside the method.
+		2. Anonymous Inner class
+				- A class created for implementing an interface or extending class.
+				  The Java compailer decides its name.
+		3. Local Inner class
+				- A class was created within the method.
+		4. Static nested class
+				- A static class were created within the class.
+		5. Nested Interface
+				- An Interface created within class or interface.
+				
+1. Member Inner Class
+		A Non-static class that is created inside a class but outside amethod is calles member inner class.
+		It is also known as regular inner class.
+		It can be declared with access modifiers like public, private, default and protected.
+		
+2. Anonymous Inner Class
+		Java anonymous inner class is an inner class without a name and for which only a single object is created.
+		An anonymous inner class can be useful when making an instance of an object 
+		with certain extras such as overloading methods of a class or interface, 
+		without having to actually subclass a class.
+		In simple words, a class that has no name is known as an anonymous inner class in java.
+
+3. Local Inner Class
+		A class i.e., created inside a method is called local inner class in java.
+		Local inner classes are the inner class that are defined inside a block.
+		
+4. Static Nested Class
+		A static class is a class that is created inside a class, is called a static nested class in java.
+		It can access static data members of the outer class including private.
+		The static nested class cannot access non-static(instance) data members.
+		
+		
+User Input 
+		Java Scanner Class
+				Java Scanner Class allows the user input from the console.
+				It belongs to java.util package
+				It is used to read input of primitive types like int, double, long, short, float,and byte.
+				It is the easiest way to read input in java program.
+				A really useful class that handles a user's input is called the scanner class.
+				
+Final Keyword In Java
+				The final keyword in java is used to restrict the user.
+				It is used in various contexts to define an entity that can only be assigned, the variable
+				can't be changed.
+				Final Can be: Variable [Stop Value Change]
+							  Method   [Stop Method Overriding]
+							  Class	   [Stop Inheritance]
+		
+Java Package
+		A Java package is a group of similar types of classes, interfaces and sub-packages.
+		Package in java can be categorized in two form, built-in package and user-defined package.
+		There are many built-in packages such as java, lang, awt, javax, swing, net, io, util, sql etc.
+	Advantages:
+		Java Package is used to categorize the classes and interfaces so that they can be easily maintained.
+		Java Package provide access protection.
+		Java Package removes naming collision.
+		
+		
+Scope
+		The Scope of the variable is defined by the passage of the variable in which it can be used and accessed.
+		The Scope is an important concepts in the Oops.
+		
+Access Modifiers In Java
+	There are two types of modifiers in Java
+		*Access Modifiers
+		*Non-Access Modefiers
+		
+	Access Modifiers:
+	In Java, Access modifiers help to restrict the scope of a class, constructor, variable, method, or data member.
+	It provides security, accessibility, etc to the user depending upon the access modifier used with the element.
+		
+		The Access Modifiers In Java are:
+				1. Public
+				2. Private
+				3. Protected
+				4. Default
+	
+		Public: The Access level of a public modifier is everywhere.
+		        It can be accessed from within the class, outside the class, 
+		        within the package and outside the package.
+		        It has the widest scope among all other modifiers.
+	   Private: The Access Level of a private Modifier is only within the class.
+	 Protected: The Access Level of a protected modifier is within the package and outside the package
+	 			through child class or inheritance only. If you do not make any child class,
+	 		    it cannot be accessed from the outside the package.
+	 		    The Protected access modifier can be applied on the data member, method and constructor,
+	 		    it cann't be applied on the class.
+	   Default: The Access level of a default modifier is only within the package.
+	   			If you don't specify any access level, it will be the default.
+			
+	
+Enum Keyword
+				Enum is used to define a set of constants in java.
+				Not only constant but it could also call any method, constructor assocaited with it.
+				Enum is default public static hence we can directly reference variable by Enum Name.
+				Enum Improves type safety.
+				Enum can be easily used in switch.
+				Enum can be traversed.
+				
+The Main Principles in java:
+				
+Inheritance:
+				Inheritance is used to store information and manage the information in a hierarchical order.
+				It is the process of defining a new class based on an existing class where a child class acquires
+				the properties of the parent class.
+				
+				Inheritance allows us to reuse code and improve the reusability in java application.
+				so that the class has to write only the unique features.
+				
+				It is a mechanism in which one object acquires all the properties and behaviours of a parent object.
+				
+				Inheritance represents the IS-A relationship which is also known as a parent-child relationship.
+				
+		Why we use Inheritance in Java
+				* For Method Overriding
+				* For Code Reusability
+				
+		Terms used in Inheritance
+				* class
+				* sub class / child class
+				* Super class / Parent Class
+				* Reusability
+				
+		The Extend keyword indicates that you are making a new class that derives from an existing class.
+		The meaning of "extends" is to increase the functionality.
+		
+		In the terminology of java, a class which is inherited is called a parent or super class,
+		and the new class is called child class or sub class.
+		
+		Types of Inheritance In Java
+				On the basis of class, there are three types of inheritance in java.
+					* Single
+					* Multilevel
+					* Hierarchical
+					
+		Single Inheritance Example
+				When a class inherits another class, it is known as a single inheritance.
+				
+						Class A  --> Super Class
+						   ^
+						   |								--> Class B Inherits Class A
+						Class B  --> Sub Class
+						
+		Multilevel Inheritance
+				When there is a chain of inheritance, it is known as multilevel inheritance.
+					
+						Class A
+						   ^
+						   |
+						Class B
+						   ^
+						   |
+						Class C
+				
+		Hierarchical Inheritance
+				When two or more class inherits a single class, it is known as hierarchical inheritance.
+				
+						Class A
+		
+  						/    \
+ 	
+				Class B 	 Class C
+
+Encapsulation
+			In Java, Encapsulation is the process of binding the class members (variables and methods) into a 
+			single unit.
+			It protects the date of class to be accessed from outside the class.
+			It is a process of wrapping code and data together into a single unit.
+			
+		Advantages
+			Read only or write only
+			control over the data
+			data hiding
+			easy to test
+			
+Polymorphism
+			Polymorphism in java is a concept by which we can perform a single action in different ways.
+			Polymorphism is derived from 2 Greek words: Poly and Morphs
+			Poly means many and Morphs means forms.
+			
+		There are two types of polymorphism in java
+			1. Complie-time Polymorphism
+			2. Runtime Polymorphism
+			
+		Compile-Time Polymorphism
+				If you overload a static method in java, it is the example of compile time polymorphism.
+		Runtime Polymorphism
+				It is a process in which a call to an overridden method is resolved at runtime rather than compile time.
+			
+			
+Aggregation
+		If a class have an entity reference, it is known as Aggregation.
+		Aggregation represents Has-A Relationship.
+		
+Composition
+		The composition is the core concept of oops.
+		It is the design technique to implement a has-a relationship b/w types of objects/classes.
+		By using composition, we can control the visibility of another object for customer classes and 
+		reuse only what we need.
+		The composition allows the creation of backend classes when necessary.
+				
+			
+			
+			
+			
+			
+			
+			
+			
+			
