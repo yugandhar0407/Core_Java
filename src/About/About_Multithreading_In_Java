@@ -1,0 +1,166 @@
+											MultiThreading
+	Thread
+			A Thread is a mini process within a process that can execute or perform operations independently.
+			A Thread is a lightweight process, the smallest unit of processing.
+			Threads perform a single task that belongs to a single process.
+			Thread is controlled by java.lang.Thread class.
+			
+	Multithreading
+			A process of executing multiple threads simultaneously is known as Multithreading.
+			Multiprocessing and multithreading, both are used to achieve multitasking.
+			We use multithreading than multiprocessing because threads use a shared memory area.
+			Java Multithreading is mostly used in games, animation.
+			
+	Advantages
+			Doesn't block the user
+			Can perform many oerations together, so is saves time.
+			Independent.
+	
+	Two ways to create the threads
+			1. Creating Threads by etending the thread class.
+			2. Creating threads by implementing Runnable Interface.
+	
+	Synchronized Method
+			 Synchronized is the ability to control the access of multiple threads to any shared resource.
+			 Java Synchronized is a concept where errors can appear in the code if the same entity
+			 is shared by two or more threads.
+			 It is better option where we want to allow only one thread to access the shared resource.
+			 
+	Why We use Synchronization
+			 1. To prevent thread interface.
+			 2. To prevent consistency problem.
+			 		 
+	Types of Synchronized
+			1. Synchronized Method
+			2. Synchronized Block
+			3. Static Synchronization
+			
+	1. Synchronized Method
+			If you declared any method as synchronized, it is known as synchronized method.
+			The Synchronized method is used to put a lock on a single object accessing the same entity(method).
+			Without using the synchronization method we will get multiples output every time
+			because both threads are getting execute simultaneously.
+			
+	2. Synchronized Block
+			The Synchronized block is the basic synchronization for a certain cose that needs to be synchronized.
+			It means that there might be code where no nned for synchronization, then due to applying the synchronized
+			method that the execution of the program is slowed down.
+			Suppose we have 50 lines of code in our method, but we want to synchronize only 5 lines,
+			in such cases, we can usee synchronized block.
+			It is more efficient than synchronized block.
+			
+	3. Static Synchronization
+			The concept of static synchronized is the issue regarding the inconsistency caused due to the multiple
+			objects accessing the sunchronized block causes an error, hence by declaring the function as static
+			we can avoid the same.
+			
+			Sometimes making use of a single object is not possible. Then we should go for static synchronization.
+			Whenever we make use of static elements as synchronized, the lock would be based on the class directly,
+			not an object.
+			
+	Volatile keyword
+			The usage of volatile keyword is used to declare the variables that will be modified by different threads.
+			All changes in the variable will be directly wwritten back to the memory.
+			This keywod can't be applied to class or method. It can only be used with a variable.
+			When the thread is dependent on the variable always use the volatile keyword.
+			It means this variable will not be cached by the thread.
+			This guarantees that the value of the volatile variable will always be read from the main memory and not 
+			from thread's local cache.
+			
+	Wait and Notify
+			The basic concepts of wait and notify is it tells the calling thread to get rid of the lock and go 
+			to sleep until some other threads enter the same monitor and calls notify() method.
+			The wait() method releases the previous lock and requires the lock prior to returning from the wait() method.
+			
+		Wait()
+			A call to this method causes the current thread to wait until another thread invokes
+			and notify() or notifyAll() method for this object.
+			
+	Interrupt
+			The basic concept of interrupt is that it stops the thread that is in an idle state by showing the
+			interrupted exception.
+			Therefore it can be given a chance to execute in case of a long unit or sleep functions.
+			
+	Join Overview
+			The joining method is an optional solution to the problem of inconsistency that occurs
+			due to threads not having an proper order.
+			The join method is used to notify that the thread will wait until the execution of the given thread
+			before execution.
+			
+	Thread pools
+			Thread pool is a software design pattern for achieving concurrency of execution in a computer program.
+			A Thread pool maintains several threads waiting for tasks to be allocated for concurrent execution
+			by the supervising program.
+			
+	Countdown latch
+			The basic use of this is that we can place the thread that we want to execute after a certain
+			number of threads. This can be done by setting the countdown number to the number of threads after which
+			we want the specific thread to be executed.
+			
+	Blocking Queue
+			The blocking queue is used as a container for objects when the threads are inserting the objects 
+			and the other threads are taking the objects out of them.
+			Then threads can only continue inserting the objects until a specific limit and take out or
+			use the resources until a specific limit.
+			Therefore, any limit reached by the blocking queue will immediately block the threads.
+			
+	Reentrant Lock
+			The Reentrant lock is a mutually exclusive lock.
+			This lock means that the lock can be accessed by the thread that owns it or controls it more than once.
+			Therefore , if any thread has access to that lock, no other thread, except that thread, can use that.
+			This is the specific use of that lock.
+			
+	Deadlock
+			The deadlock ia s condition in which the resources cannot be allocated to two or more threads in the
+			current resources requirement, which leads to a state of a halt as the resources can't ne released 
+			nor can be acquired therefore this brings the processing to a complete halt.
+			
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+			 		
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			

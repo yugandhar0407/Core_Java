@@ -4,5 +4,5 @@
 /**
  * 
  */
-module Collection_Framework_In_Java {
+module MultiThreadingInJava {
 }
