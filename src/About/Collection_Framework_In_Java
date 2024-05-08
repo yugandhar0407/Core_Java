@@ -1,0 +1,270 @@
+												Collection Framework
+												
+	The Collection in Java is a framework that provides an architecture to store and manipulate the group
+	of objects.
+	
+	Java Collection can achieve all the operations that you perform on a data such as searching, sorting,
+    insertion, manipulation, and deletion.
+    
+    Java Collections means a single unit of objects or a group.
+    Java Collection framework provides many interfces(set, list, queue, deque) and classes (ArrayList, Vector,
+    LinkedList, Priority Queue, HashSet, LinkedHashSet, TreeSet).
+    
+    Framework in Java
+    	- It provides readymade architecture.
+    	- It represents a set of classes and interfaces.
+    	
+    Advantages 
+    	- No third-party API required.
+    	- No need to create API from handling collections objects.
+    	- collection framework is tested and optimized.
+    	
+    	
+    * Hierarchy of Collection Framework
+    	The Java.util package contains all the classes and interfaces for the collection framework.
+								
+								Iterable
+									
+								Collection
+			List				Queue					Set                     Map
+			-ArrayList            -Priority Queue          -HashSet               -HashMap
+			-LinkedList                                    -LinkedHashSet         -LinkedHashMap
+			  																	  -TreeMap
+			                     Deque 
+			-Vector               -Array Deque            SortedSet
+				-Stack                                     -TreeSet
+								
+								
+								
+	List Interface
+	
+		List Interface is the child interface of collection interface.
+		It inhabits a list type structure in which we can store the ordered collections.
+		It can have duplicate values.
+		List Interface is implemented by the classes ArrayList, LinkedList, Vector and Stack.
+		List in Java provides the facility to maintain the ordered collection.
+		It contains the index-based methods to insert, update, delete and search the elements.
+		
+		ArrayList
+			ArrayList is a part of the collection framework present in java.util package.
+			The ArrayList class implements the list interface. It uses a dynamic arrray to store the 
+			duplicate element of different data types.
+			The ArrayList class maintains the insertion order and is non-synchronized.
+			An ArrayList is an object which can be a resizable array.
+			It is an implementation of list interface where the elements can be dynamically added or removed
+			from the list.
+			
+			
+		Pros                                    cons
+			-Fast                               	-Operations are slow
+			-Easy to access any element             -Tends to use more memory while operating.
+			 from the location
+							
+								
+		LinkedList
+			Java LinkedList class uses a doubly linked list to store the elements.
+			It provides a linked-list data structure.
+			It inherits the AbstractionList class and implements List and Deque interfaces.
+			It is considered as a data structure similar to other data structure like arrays,
+			stacks, and queues, every node is interconnected to the next node through a memory address link.
+			A linkedlist has three elements namely:
+				Head
+				Nodes
+				Tails
+			Java LinkedList class can contain duplicate elements
+			Java LinkedList class maintains insertion order.
+			Java LinkedList class manipulation is fast because no shifting needs to occur.
+			Java LinkedList class can be used as a list, stack or queue.
+			
+	Iterators In Java
+			In Java an Iterator is one of the Java cursors.
+			Java Iterator is an interface that is practiced in order to iterate over a 
+			collection of java object components.
+			The java Iterator is also known as the universal cursor of java as it is appropriate
+		    for all the classes of he collection framework.
+		    The Java Iterator also helps in the operations like read and remove.
+		    
+	Comparable Interface
+			Java Comparable Interface is used to order the objects of the user-defined class.
+			This interface is found in java.lang package and contains only one method named compareTo.
+		CompareTo Method
+			It is used to compare the current object with the specified object.
+			It returns
+					-Positive Integer: if the current object is greater than the specified object.
+					-Negitive Integer: if the current object is less than the specified object.
+					-Zero: If the current object is equal to the specified object.
+			
+		Stack
+			The Stack is a linear data structure that is used to store the collection of objects.
+			It is based on Last=In-Last_Out(LIFO)
+			
+			In Java Stack is a class that falls under the collection framework that extends the
+			vector class. 
+			It also implements interfaces list, collections, iterable, cloneable, seralizable.
+			
+			Java Stack is a LIFO(Last-In-First-Out) objects,
+		    extends the vector class but supports only five operations.	
+		    Empty, Peak, Pop, Push, Search
+		  
+		    
+	Set Interface
+			
+			The Sets are unique type of data structure mostly used because it does not allow the repetition of 
+			the elements.
+			
+			Set does not return any individual value but,the availability of elements in a set can be verified
+			using contains() method.
+			
+			Contains() method return true, if the element is available in a set and it return false if the 
+			element is unavailable in a set.
+			
+		Set Types
+		
+			There are three types of sets.They are 
+			LinkedHashSet
+			HashSet
+			TreeSet
+			The difference between the three regarding the speed and insertion order is given.
+			
+		HashSet
+			Java HashSet class is used to create a collection that uses a hash table for storage.
+			It inherits the abstract set class and implements set interface.
+			
+			HashSet doesn't gurrantee any order
+			Allows only null key
+			Fastest for common operations ex: add, search, remove.
+			
+		LinkedHashSet
+			Java LinkedHashSet class is a Hashtable and Linked List implementation of the set interface.
+			It inherits the Hashset class and implements the set interface.
+			LinkedHashset keep elements in the order they are added.
+			LinkedHashSet allows one null key
+			
+		Tree Set
+			Java TreeSet class implements the set interface that uses a tree for storage.
+			It inherits AbstractSet class and implements the navigableSet interface.
+			The Objects of the TreeSet class are stored in ascending order.
+			TreeSet sorts all objects in Ascending order
+			Doesn't allow null key.
+			TreeSet is much slower, because it needs to prform sorting.
+			
+	
+	Queue
+			The queue is a data structurethat First-In-First-Out(FIFO) structure.
+			The interface Queue is available in the java.util.package and does extend the collection infterface.
+			add() method is used to add data at the end of the queue.
+			We can iterate queue elements using enhanced for loop.
+	
+	Deque
+			This means a double ended queue.
+			The double ended queue means insertion and deletion can take place from both ends.
+			
+	Map Interface
+			The Maps are an interface. A Map contains values based on the key.
+			For Example Key and Value Pair.
+			Each pair of key and value is known as an entry.
+			Both the key and values are objects.
+			A Map cannot contain duplicate keys, it must be unique, but the value can be duplicated.
+			
+			There are two interfaces for implementing map in java.
+			Map and SortedMap, and three classes: HaspMap,LinkedHashMap,and TreeMap.
+			
+	HashMap
+			Java HashMap class implements the map interface which allows us to store key and value pair,
+			where keys should be unique.
+			If you try to insert the duplicate key, it will replace the element of the corresponding key.
+			HashMap class is found in the java.util package.
+			
+	LinkedHashMap
+			LinkedHashMap class is Hashtable and LinkedList implementation of the map interface, with 
+			predictable iteration order.
+			It iterators HashMap class and implements the Map interface.
+			
+	TreeMap
+			In Java TreeMap is the kind of map data, but the natural order of the maps is preserved.
+			Therefore Treemap implements the map interface and navigable map along with the abstract class.
+			
+			Java Treemap class is a red-black tree based implementation.
+			It provides an efficient means of storing key-value pairs in sorted order.
+			
+	Comparator
+			Custom sorting using a comparatorc is used to order the userdefined methods.
+			In addition to using the generics, various data types could integers, strings etc
+			
+	Autoboxing and unboxing
+			The automatic conversion of primitive data types into its equivalent wrapper type is 
+			known as boxing and opposite operation is known as unboxing.
+			
+			Advantage:
+				No need of conversion b/w primitives and wrappers manually, so less coding is required.
+				
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
