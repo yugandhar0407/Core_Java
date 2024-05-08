@@ -1,0 +1,27 @@
+String
+		- In Java String is an Object that represents sequence of char values.
+		- A Sequence of characters inside a double quotes is called String.
+		- A Array of characters work same as Java String.
+		- The Java String is immutable which means it can't be changed. 
+		  Whenever we change any string a new instance is created.
+		  Because of many reasons like Security, Synchronizitation, Concurrency etc.
+		- Java String class provides a lot of methods to perform operations on string such as 
+		  compare(), concat(), equals(), split(), length(), replace(), comareTo(), intern(), subString() etc,.
+		- String objects are stored in a special memory area known as the "String Constant Pool".
+		- There are two ways to create String object
+		   1. By String literal
+		   2. By New Keyword
+		- String are derived data types or reference data types
+		
+String Pool
+		- String Pool also known as SCP(String Constant Pool) is a special storage space in java heap memory
+		  i.e, used to store unique string objects.
+		
+String Buffer
+		- 
+		
+String Builder
+		-
+	
+
+		  
