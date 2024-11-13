@@ -1,5 +1,9 @@
  Main Method Explanation:
-		  public- It is a Access Specifier, which specifies from where and who can access the method.
+	public class something{
+	public static void main(String[]args){
+}
+}
+	  public- It is a Access Specifier, which specifies from where and who can access the method.
                   Making a main() method public means, it can access out the class and package also.
           static- It is a keyword, i.e, when associated with a method making.
                   Without creating the object we can access static method.
