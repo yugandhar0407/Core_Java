@@ -22,7 +22,7 @@
                          8. Double
                         
    Non-Primitive Data Types
-   					   - Non-Primitive data types are called reference data types because 
+   		       - Non-Primitive data types are called reference data types because 
                          they refer to objects.
                        - Non-Primitive data types are created by the programmer and
                          is not defined by java (except String).
