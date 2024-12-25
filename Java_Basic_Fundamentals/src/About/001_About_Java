@@ -41,7 +41,7 @@
   	- Distributed
   	- Write-Once Run Anywhere
     
-    JVM JRE JDK 
+    JVM JRE JDK IDE
     
     JVM - Java Virtual Machine is an abstract, it is a virtual machince does not physically exist.
         - The main function of JVM is to execute the byte-code produced by the compiler.
