@@ -26,13 +26,13 @@
 								Iterable
 									
 								Collection
-			List				Queue					Set                     Map
-			-ArrayList            -Priority Queue          -HashSet               -HashMap
-			-LinkedList                                    -LinkedHashSet         -LinkedHashMap
+				List				Queue					Set                     Map
+				-ArrayList            		-Priority Queue          		-HashSet               -HashMap
+				-LinkedList                                    				-LinkedHashSet         -LinkedHashMap
 			  																	  -TreeMap
-			                     Deque 
-			-Vector               -Array Deque            SortedSet
-				-Stack                                     -TreeSet
+			                     		 Deque 
+				-Vector               	-Array Deque            				SortedSet
+				-Stack                                     			-TreeSet
 								
 								
 								
